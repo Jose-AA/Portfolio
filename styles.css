@@ -1,0 +1,37 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Fondo transparente */
+    z-index: 1000;
+    /* Ajusta el índice z para que esté por encima de otros elementos */
+}
+
+/* Opcional: Agrega estilos adicionales para el contenido dentro del div fijo */
+.fixed-top-content {
+    padding: 20px;
+    color: white;
+    /* Texto en blanco para mayor contraste */
+}
+
+.spacer {
+    margin-bottom: 50px;
+    /* Ajusta la altura según sea necesario para determinar cuánto espacio en blanco deseas */
+}
+
+.texto-grande {
+    font-size: 36px;
+}
+
+.texto-mediano {
+    font-size: 24px;
+}
+
+body {
+
+    background-image: url('C:\\Users\\jhose\\OneDrive\\Escritorio\\html portafolio\\fondo2.jpg');
+
+
+}
